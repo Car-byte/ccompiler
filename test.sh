@@ -18,5 +18,7 @@ assert() {
 
 assert 0 0
 assert 42 42
+assert 50 '5+20+25-20+20'
+assert 20 '5-5-10+30'
 
 echo OK
